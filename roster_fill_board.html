@@ -1,0 +1,104 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NFL Dynasty Roster Fill Board</title><style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef4f7 100%);
+  color: #1f2937;
+}
+.page {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 28px;
+}
+.hero, .section, .card {
+  background: #ffffff;
+  border: 1px solid #d7e1e8;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(24, 39, 75, 0.05);
+}
+.hero, .section {
+  padding: 20px 22px;
+  margin-bottom: 18px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.card {
+  padding: 14px 16px;
+}
+.card-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+.card-value {
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.meta { color: #64748b; }
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.control-row input, .control-row select, .control-row label { font: inherit; }
+.control-row input, .control-row select {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  border: 1px solid #d7e1e8;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: #edf4f8; }
+tr:nth-child(even) td { background: #fbfdff; }
+a { color: #1d4ed8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style></head><body><div class="page"><div class="hero"><h1>NFL Dynasty Roster Fill Board</h1><p class="meta">Open roster spots by team and position, plus league-wide position demand for the auction.</p></div><div class="section"><p><a href="index.html">Back to portal index</a></p><p>Open roster spots by team and position, plus league-wide position demand for the auction.</p></div><div class="section"><div class="card-grid"><div class="card"><div class="card-label">Total Open Roster Spots</div><div class="card-value">116</div></div><div class="card"><div class="card-label">Total QB Need</div><div class="card-value">17</div></div><div class="card"><div class="card-label">Total RB Need</div><div class="card-value">27</div></div><div class="card"><div class="card-label">Total WR Need</div><div class="card-value">30</div></div><div class="card"><div class="card-label">Total TE Need</div><div class="card-value">14</div></div><div class="card"><div class="card-label">Total K Need</div><div class="card-value">15</div></div><div class="card"><div class="card-label">Total DEF Need</div><div class="card-value">13</div></div><div class="card"><div class="card-label">Highest Demand Position</div><div class="card-value">WR</div></div><div class="card"><div class="card-label">Teams With Most Open Spots</div><div class="card-value">Unstoppable😈 (11), Catch These Hands 👊🏿 (10), alesclub (9)</div></div></div></div><div class="section"><h2>League Position Demand Table</h2><table><thead><tr><th>Position</th><th>Current Count</th><th>Target Count</th><th>Open Spots</th><th>Teams With Need</th><th>Needy Teams’ Auction Budget</th><th>Market Pressure</th><th>Top Needy Teams</th></tr></thead><tbody><tr><td>QB</td><td>15</td><td>32</td><td>17</td><td>13</td><td>1830</td><td>High</td><td>Bolle425 (2), Unstoppable😈 (2), bayoklein (2), GRsUnit (2), Las Vegas “Pray”ders (1)</td></tr><tr><td>RB</td><td>39</td><td>64</td><td>27</td><td>13</td><td>1790</td><td>High</td><td>Bolle425 (3), alesclub (3), lanbel (3), Unstoppable😈 (3), BallSoHardUniversity (2)</td></tr><tr><td>WR</td><td>54</td><td>80</td><td>30</td><td>14</td><td>1890</td><td>High</td><td>Las Vegas “Pray”ders (4), Catch These Hands 👊🏿 (4), lanbel (3), Unstoppable😈 (3), alesclub (2)</td></tr><tr><td>TE</td><td>18</td><td>32</td><td>14</td><td>12</td><td>1740</td><td>High</td><td>Bunchapunts21 (2), Traffic Cones (2), Bolle425 (1), alesclub (1), BallSoHardUniversity (1)</td></tr><tr><td>K</td><td>1</td><td>16</td><td>15</td><td>15</td><td>2040</td><td>High</td><td>Bolle425 (1), Las Vegas “Pray”ders (1), alesclub (1), BallSoHardUniversity (1), The Lucky Sheriffs (1)</td></tr><tr><td>DEF</td><td>3</td><td>16</td><td>13</td><td>13</td><td>1812</td><td>Medium</td><td>Bolle425 (1), Las Vegas “Pray”ders (1), alesclub (1), BallSoHardUniversity (1), The Lucky Sheriffs (1)</td></tr></tbody></table></div><div class="section"><h2>Team Roster Fill Table</h2><div class="control-row"><input id="teamSearch" type="search" placeholder="Search team"><select id="needFilter"><option value="">All Need Types</option><option value="RB">Teams With RB Need</option><option value="WR">Teams With WR Need</option><option value="heavy">Heavy Buyers</option></select><select id="sortFilter"><option value="open">Sort by Open Spots</option><option value="budget">Sort by Auction Budget</option></select></div><table id="teamRosterTable"><thead><tr><th>Team</th><th>Auction Budget</th><th>Total Counted Players</th><th>Total Open Spots</th><th>QB Open</th><th>RB Open</th><th>WR Open</th><th>TE Open</th><th>K Open</th><th>DEF Open</th><th>Biggest Needs</th><th>Status</th></tr></thead><tbody><tr data-team="traffic cones" data-status="Heavy Buyer" data-rb="1" data-wr="2" data-budget="80" data-open="8"><td>Traffic Cones</td><td>80</td><td>7</td><td>8</td><td>1</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td><td>WR (2), TE (2), RB (1)</td><td>Heavy Buyer</td></tr><tr data-team="bayoklein" data-status="Heavy Buyer" data-rb="2" data-wr="1" data-budget="119" data-open="7"><td>bayoklein</td><td>119</td><td>8</td><td>7</td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>1</td><td>RB (2), QB (2), WR (1)</td><td>Heavy Buyer</td></tr><tr data-team="alesclub" data-status="Heavy Buyer" data-rb="3" data-wr="2" data-budget="176" data-open="9"><td>alesclub</td><td>176</td><td>6</td><td>9</td><td>1</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>RB (3), WR (2), TE (1)</td><td>Heavy Buyer</td></tr><tr data-team="bolle425" data-status="Heavy Buyer" data-rb="3" data-wr="1" data-budget="183" data-open="9"><td>Bolle425</td><td>183</td><td>6</td><td>9</td><td>2</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td><td>RB (3), QB (2), WR (1)</td><td>Heavy Buyer</td></tr><tr data-team="catch these hands 👊🏿" data-status="Heavy Buyer" data-rb="2" data-wr="4" data-budget="148" data-open="10"><td>Catch These Hands 👊🏿</td><td>148</td><td>5</td><td>10</td><td>1</td><td>2</td><td>4</td><td>1</td><td>1</td><td>1</td><td>WR (4), RB (2), TE (1)</td><td>Heavy Buyer</td></tr><tr data-team="dannyboy413" data-status="Needs Starters" data-rb="0" data-wr="2" data-budget="89" data-open="4"><td>DannyBoy413</td><td>89</td><td>11</td><td>4</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>0</td><td>WR (2), TE (1), K (1)</td><td>Needs Starters</td></tr><tr data-team="grsunit" data-status="Needs Starters" data-rb="2" data-wr="2" data-budget="65" data-open="8"><td>GRsUnit</td><td>65</td><td>7</td><td>8</td><td>2</td><td>2</td><td>2</td><td>0</td><td>1</td><td>1</td><td>WR (2), RB (2), QB (2)</td><td>Needs Starters</td></tr><tr data-team="unstoppable😈" data-status="Heavy Buyer" data-rb="3" data-wr="3" data-budget="131" data-open="11"><td>Unstoppable😈</td><td>131</td><td>4</td><td>11</td><td>2</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>WR (3), RB (3), QB (2)</td><td>Heavy Buyer</td></tr><tr data-team="smash n’ dash" data-status="Needs Starters" data-rb="1" data-wr="1" data-budget="109" data-open="5"><td>Smash N’ Dash</td><td>109</td><td>10</td><td>5</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>WR (1), RB (1), QB (1)</td><td>Needs Starters</td></tr><tr data-team="the lucky sheriffs" data-status="Needs Starters" data-rb="1" data-wr="0" data-budget="168" data-open="5"><td>The Lucky Sheriffs</td><td>168</td><td>14</td><td>5</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>TE (1), RB (1), QB (1)</td><td>Needs Starters</td></tr><tr data-team="las vegas “pray”ders" data-status="Heavy Buyer" data-rb="0" data-wr="4" data-budget="179" data-open="7"><td>Las Vegas “Pray”ders</td><td>179</td><td>10</td><td>7</td><td>1</td><td>0</td><td>4</td><td>0</td><td>1</td><td>1</td><td>WR (4), QB (1), K (1)</td><td>Heavy Buyer</td></tr><tr data-team="bunchapunts21" data-status="Needs Starters" data-rb="2" data-wr="1" data-budget="139" data-open="6"><td>Bunchapunts21</td><td>139</td><td>9</td><td>6</td><td>0</td><td>2</td><td>1</td><td>2</td><td>1</td><td>0</td><td>TE (2), RB (2), WR (1)</td><td>Needs Starters</td></tr><tr data-team="jdamiani07" data-status="Needs Starters" data-rb="0" data-wr="0" data-budget="154" data-open="3"><td>jdamiani07</td><td>154</td><td>12</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>TE (1), K (1), DEF (1)</td><td>Needs Starters</td></tr><tr data-team="lanbel" data-status="Heavy Buyer" data-rb="3" data-wr="3" data-budget="172" data-open="8"><td>lanbel</td><td>172</td><td>7</td><td>8</td><td>1</td><td>3</td><td>3</td><td>1</td><td>0</td><td>0</td><td>WR (3), RB (3), TE (1)</td><td>Heavy Buyer</td></tr><tr data-team="ballsoharduniversity" data-status="Heavy Buyer" data-rb="2" data-wr="2" data-budget="172" data-open="8"><td>BallSoHardUniversity</td><td>172</td><td>7</td><td>8</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>WR (2), RB (2), TE (1)</td><td>Heavy Buyer</td></tr><tr data-team="killanomics" data-status="Heavy Buyer" data-rb="2" data-wr="2" data-budget="128" data-open="8"><td>Killanomics</td><td>128</td><td>7</td><td>8</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>WR (2), RB (2), TE (1)</td><td>Heavy Buyer</td></tr></tbody></table></div><div class="section"><h2>Team Detail Cards</h2><div class="card-grid"><div class="card"><div class="card-label">Traffic Cones</div><div class="card-value">8 open</div><p class="meta">Budget: $80 | Counted players: 7</p><p>WR (2), TE (2), RB (1)</p></div><div class="card"><div class="card-label">bayoklein</div><div class="card-value">7 open</div><p class="meta">Budget: $119 | Counted players: 8</p><p>RB (2), QB (2), WR (1)</p></div><div class="card"><div class="card-label">alesclub</div><div class="card-value">9 open</div><p class="meta">Budget: $176 | Counted players: 6</p><p>RB (3), WR (2), TE (1)</p></div><div class="card"><div class="card-label">Bolle425</div><div class="card-value">9 open</div><p class="meta">Budget: $183 | Counted players: 6</p><p>RB (3), QB (2), WR (1)</p></div><div class="card"><div class="card-label">Catch These Hands 👊🏿</div><div class="card-value">10 open</div><p class="meta">Budget: $148 | Counted players: 5</p><p>WR (4), RB (2), TE (1)</p></div><div class="card"><div class="card-label">DannyBoy413</div><div class="card-value">4 open</div><p class="meta">Budget: $89 | Counted players: 11</p><p>WR (2), TE (1), K (1)</p></div><div class="card"><div class="card-label">GRsUnit</div><div class="card-value">8 open</div><p class="meta">Budget: $65 | Counted players: 7</p><p>WR (2), RB (2), QB (2)</p></div><div class="card"><div class="card-label">Unstoppable😈</div><div class="card-value">11 open</div><p class="meta">Budget: $131 | Counted players: 4</p><p>WR (3), RB (3), QB (2)</p></div><div class="card"><div class="card-label">Smash N’ Dash</div><div class="card-value">5 open</div><p class="meta">Budget: $109 | Counted players: 10</p><p>WR (1), RB (1), QB (1)</p></div><div class="card"><div class="card-label">The Lucky Sheriffs</div><div class="card-value">5 open</div><p class="meta">Budget: $168 | Counted players: 14</p><p>TE (1), RB (1), QB (1)</p></div><div class="card"><div class="card-label">Las Vegas “Pray”ders</div><div class="card-value">7 open</div><p class="meta">Budget: $179 | Counted players: 10</p><p>WR (4), QB (1), K (1)</p></div><div class="card"><div class="card-label">Bunchapunts21</div><div class="card-value">6 open</div><p class="meta">Budget: $139 | Counted players: 9</p><p>TE (2), RB (2), WR (1)</p></div><div class="card"><div class="card-label">jdamiani07</div><div class="card-value">3 open</div><p class="meta">Budget: $154 | Counted players: 12</p><p>TE (1), K (1), DEF (1)</p></div><div class="card"><div class="card-label">lanbel</div><div class="card-value">8 open</div><p class="meta">Budget: $172 | Counted players: 7</p><p>WR (3), RB (3), TE (1)</p></div><div class="card"><div class="card-label">BallSoHardUniversity</div><div class="card-value">8 open</div><p class="meta">Budget: $172 | Counted players: 7</p><p>WR (2), RB (2), TE (1)</p></div><div class="card"><div class="card-label">Killanomics</div><div class="card-value">8 open</div><p class="meta">Budget: $128 | Counted players: 7</p><p>WR (2), RB (2), TE (1)</p></div></div></div><div class="section"><h2>Auction Implications</h2><p>QB has 17 total open spots and 1830 needy-team budget, so expect firmer pricing.</p><p>RB has 27 total open spots and 1790 needy-team budget, so expect firmer pricing.</p><p>WR has 30 total open spots and 1890 needy-team budget, so expect firmer pricing.</p><p>Killanomics can exploit positions where demand is moderate but the free-agent pool still has ranked depth.</p></div><script>
+(function () {
+  var search = document.getElementById('teamSearch');
+  var need = document.getElementById('needFilter');
+  var sort = document.getElementById('sortFilter');
+  var tbody = document.querySelector('#teamRosterTable tbody');
+  function sortRows(rows) {
+    var mode = sort.value || 'open';
+    rows.sort(function (a, b) {
+      var aValue = parseInt(a.getAttribute(mode === 'budget' ? 'data-budget' : 'data-open') || '0', 10);
+      var bValue = parseInt(b.getAttribute(mode === 'budget' ? 'data-budget' : 'data-open') || '0', 10);
+      return bValue - aValue;
+    });
+    rows.forEach(function (row) { tbody.appendChild(row); });
+  }
+  function applyFilters() {
+    var term = (search.value || '').toLowerCase();
+    var filter = need.value || '';
+    var rows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+    rows.forEach(function (row) {
+      var show = !term || (row.getAttribute('data-team') || '').indexOf(term) !== -1;
+      if (filter === 'RB' && parseInt(row.getAttribute('data-rb') || '0', 10) <= 0) show = false;
+      if (filter === 'WR' && parseInt(row.getAttribute('data-wr') || '0', 10) <= 0) show = false;
+      if (filter === 'heavy' && row.getAttribute('data-status') !== 'Heavy Buyer') show = false;
+      row.style.display = show ? '' : 'none';
+    });
+    sortRows(rows);
+  }
+  search.addEventListener('input', applyFilters);
+  need.addEventListener('change', applyFilters);
+  sort.addEventListener('change', applyFilters);
+  applyFilters();
+})();
+</script></div></body></html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NFL Dynasty Trade Log</title><style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef4f7 100%);
+  color: #1f2937;
+}
+.page {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 28px;
+}
+.hero, .section, .card {
+  background: #ffffff;
+  border: 1px solid #d7e1e8;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(24, 39, 75, 0.05);
+}
+.hero, .section {
+  padding: 20px 22px;
+  margin-bottom: 18px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.card {
+  padding: 14px 16px;
+}
+.card-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+.card-value {
+  margin-top: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.meta {
+  color: #64748b;
+}
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.control-row input, .control-row select, .control-row label {
+  font: inherit;
+}
+.control-row input, .control-row select {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  border: 1px solid #d7e1e8;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #edf4f8;
+}
+tr:nth-child(even) td {
+  background: #fbfdff;
+}
+a { color: #1d4ed8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style></head><body><div class="page"><div class="hero"><h1>NFL Dynasty Trade Log</h1><p class="meta">All imported Sleeper trades, including players, picks, teams, and timestamps.</p></div><div class="section"><p><a href="index.html">Back to portal index</a></p><p>This page lists completed trades imported from Sleeper, including players, rookie picks, teams involved, and trade dates.</p></div><div class="section"><div class="card-grid"><div class="card"><div class="card-label">Total Trades Imported</div><div class="card-value">2</div></div><div class="card"><div class="card-label">Most Recent Trade Date</div><div class="card-value">2026-06-16 11:58:04</div></div><div class="card"><div class="card-label">Teams With Most Trades</div><div class="card-value">bayoklein (1), Las Vegas “Pray”ders (1), The Lucky Sheriffs (1)</div></div><div class="card"><div class="card-label">Players Traded</div><div class="card-value">2</div></div><div class="card"><div class="card-label">Picks Traded</div><div class="card-value">5</div></div></div></div><div class="section"><div class="control-row"><input id="tradeSearch" type="search" placeholder="Search player or team"><select id="teamFilter"><option value="">All Teams</option><option value="Las Vegas “Pray”ders">Las Vegas “Pray”ders</option><option value="The Lucky Sheriffs">The Lucky Sheriffs</option><option value="bayoklein">bayoklein</option><option value="lanbel">lanbel</option></select><select id="yearFilter"><option value="">All Years</option><option value="2026">2026</option></select><select id="typeFilter"><option value="">All Trades</option><option value="picks-only">Picks Only</option><option value="player-trades">Player Trades</option></select></div><table id="tradeLogTable"><thead><tr><th>Date</th><th>Teams</th><th>Team A Sent</th><th>Team A Received</th><th>Team B Sent</th><th>Team B Received</th><th>Picks Included</th><th>Notes</th></tr></thead><tbody><tr data-team="bayoklein, Las Vegas “Pray”ders" data-year="2026" data-picks-only="false" data-player-trade="true" data-search="bayoklein, las vegas “pray”ders j.k. dobbins 2027 2nd - las vegas “pray”ders, 2026 2nd - las vegas “pray”ders j.k. dobbins 2027 2nd - las vegas “pray”ders, 2026 2nd - las vegas “pray”ders 2027 2nd - las vegas “pray”ders, 2026 2nd - las vegas “pray”ders j.k. dobbins"><td>2026-06-16 11:58:04</td><td>bayoklein, Las Vegas “Pray”ders</td><td>J.K. Dobbins</td><td>2027 2nd - Las Vegas “Pray”ders, 2026 2nd - Las Vegas “Pray”ders</td><td>2027 2nd - Las Vegas “Pray”ders, 2026 2nd - Las Vegas “Pray”ders</td><td>J.K. Dobbins</td><td>2027 2nd - Las Vegas “Pray”ders, 2026 2nd - Las Vegas “Pray”ders</td><td>—</td></tr><tr data-team="The Lucky Sheriffs, lanbel" data-year="2026" data-picks-only="false" data-player-trade="true" data-search="the lucky sheriffs, lanbel jack bech 2026 2nd - the lucky sheriffs, 2028 1st - lanbel, 2026 2nd - the lucky sheriffs 2026 2nd - the lucky sheriffs, 2026 2nd - the lucky sheriffs jack bech, 2028 1st - lanbel jack bech, 2028 1st - lanbel 2026 2nd - the lucky sheriffs, 2026 2nd - the lucky sheriffs"><td>2026-06-15 21:58:16</td><td>The Lucky Sheriffs, lanbel</td><td>2026 2nd - The Lucky Sheriffs, 2026 2nd - The Lucky Sheriffs</td><td>Jack Bech, 2028 1st - lanbel</td><td>Jack Bech, 2028 1st - lanbel</td><td>2026 2nd - The Lucky Sheriffs, 2026 2nd - The Lucky Sheriffs</td><td>2026 2nd - The Lucky Sheriffs, 2028 1st - lanbel, 2026 2nd - The Lucky Sheriffs</td><td>—</td></tr></tbody></table></div><script>
+(function () {
+  var search = document.getElementById('tradeSearch');
+  var team = document.getElementById('teamFilter');
+  var year = document.getElementById('yearFilter');
+  var type = document.getElementById('typeFilter');
+  function applyFilters() {
+    var term = (search.value || '').toLowerCase();
+    var teamValue = team.value || '';
+    var yearValue = year.value || '';
+    var typeValue = type.value || '';
+    Array.prototype.forEach.call(document.querySelectorAll('#tradeLogTable tbody tr'), function (row) {
+      var show = true;
+      if (term && (row.getAttribute('data-search') || '').indexOf(term) === -1) show = false;
+      if (teamValue && (row.getAttribute('data-team') || '').indexOf(teamValue) === -1) show = false;
+      if (yearValue && row.getAttribute('data-year') !== yearValue) show = false;
+      if (typeValue === 'picks-only' && row.getAttribute('data-picks-only') !== 'true') show = false;
+      if (typeValue === 'player-trades' && row.getAttribute('data-player-trade') !== 'true') show = false;
+      row.style.display = show ? '' : 'none';
+    });
+  }
+  search.addEventListener('input', applyFilters);
+  team.addEventListener('change', applyFilters);
+  year.addEventListener('change', applyFilters);
+  type.addEventListener('change', applyFilters);
+})();
+</script></div></body></html>
