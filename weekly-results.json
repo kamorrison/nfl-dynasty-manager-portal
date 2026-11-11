@@ -1,42 +1,42 @@
 {
   "meta": {
     "cycle": "results",
-    "generated_at": "2026-11-04T02:12:25+00:00",
+    "generated_at": "2026-11-11T13:18:09+00:00",
     "league_key": "dynasty",
     "league_name": "NFL Dynasty",
     "mode": "regular",
     "platform": "sleeper",
     "platform_league_id": "1311855165367676928",
     "season": 2026,
-    "source_week": 8,
-    "week": 8
+    "source_week": 9,
+    "week": 9
   },
   "teams": [
     {
       "eliminated_week": null,
-      "faab_remaining": 89,
+      "faab_remaining": 8,
       "manager": "tbach24",
       "owner_id": "997607151751237632",
       "players": [
         "11539",
         "11610",
         "12491",
+        "12504",
         "13405",
         "13421",
         "4984",
         "5001",
+        "6427",
+        "7562",
         "7588",
         "8137",
         "8138",
-        "8161",
         "8167",
         "9488",
-        "LV",
-        "NYG",
-        "NYJ"
+        "NYG"
       ],
-      "points_against": 714.74,
-      "points_for": 1035.2,
+      "points_against": 842.78,
+      "points_for": 1163.66,
       "prior_week_points": {
         "1": 131.56,
         "2": 166.52,
@@ -44,12 +44,13 @@
         "4": 102.32,
         "5": 165.6,
         "6": 119.0,
-        "7": 118.52
+        "7": 118.52,
+        "8": 109.76
       },
       "record": {
         "losses": 1,
         "ties": 0,
-        "wins": 7
+        "wins": 8
       },
       "roster_id": "1",
       "starters": [
@@ -57,16 +58,16 @@
         "8138",
         "7588",
         "8167",
-        "8137",
-        "13421",
+        "11610",
+        "5001",
         "9488",
         "11539",
-        "LV"
+        "NYG"
       ],
       "team": "Traffic Cones",
       "team_id": "1",
-      "waiver_budget_used": 11,
-      "week_points": 109.76
+      "waiver_budget_used": 92,
+      "week_points": 128.46
     },
     {
       "eliminated_week": null,
@@ -76,10 +77,11 @@
       "players": [
         "11435",
         "11588",
-        "11624",
         "12481",
         "12530",
+        "13286",
         "13349",
+        "13350",
         "13402",
         "13414",
         "1945",
@@ -87,15 +89,14 @@
         "4983",
         "4993",
         "5022",
-        "7083",
+        "5189",
+        "5870",
         "8142",
-        "9225",
         "9753",
-        "BUF",
         "HOU"
       ],
-      "points_against": 837.98,
-      "points_for": 660.04,
+      "points_against": 918.46,
+      "points_for": 723.34,
       "prior_week_points": {
         "1": 117.56,
         "2": 69.9,
@@ -103,45 +104,47 @@
         "4": 83.48,
         "5": 89.64,
         "6": 60.7,
-        "7": 96.02
+        "7": 96.02,
+        "8": 59.1
       },
       "record": {
-        "losses": 6,
+        "losses": 7,
         "ties": 0,
         "wins": 2
       },
       "roster_id": "2",
       "starters": [
-        "4881",
+        "5870",
         "9753",
-        "11435",
+        "13286",
         "4983",
-        "7547",
+        "12530",
         "5022",
-        "11624",
-        "1945",
-        "BUF"
+        "4993",
+        "5189",
+        "HOU"
       ],
       "team": "Clobberknockers",
       "team_id": "2",
       "waiver_budget_used": 70,
-      "week_points": 59.1
+      "week_points": 63.3
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 51,
+      "faab_remaining": 43,
       "manager": "alesclub",
       "owner_id": "997688647067111424",
       "players": [
-        "11439",
         "11564",
         "11581",
         "11618",
         "11630",
         "11638",
         "11792",
+        "12969",
         "13277",
-        "2197",
+        "13603",
+        "7561",
         "7567",
         "8126",
         "8134",
@@ -149,11 +152,10 @@
         "9484",
         "9487",
         "9508",
-        "JAX",
-        "TEN"
+        "JAX"
       ],
-      "points_against": 782.3,
-      "points_for": 780.72,
+      "points_against": 868.2,
+      "points_for": 867.78,
       "prior_week_points": {
         "1": 96.62,
         "2": 68.02,
@@ -161,20 +163,21 @@
         "4": 135.46,
         "5": 118.96,
         "6": 63.3,
-        "7": 84.84
+        "7": 84.84,
+        "8": 99.56
       },
       "record": {
         "losses": 6,
         "ties": 0,
-        "wins": 2
+        "wins": 3
       },
       "roster_id": "3",
       "starters": [
         "11564",
         "7567",
-        "11581",
+        "7561",
         "9487",
-        "8126",
+        "8144",
         "9484",
         "8134",
         "11792",
@@ -182,8 +185,8 @@
       ],
       "team": "alesclub",
       "team_id": "3",
-      "waiver_budget_used": 49,
-      "week_points": 99.56
+      "waiver_budget_used": 57,
+      "week_points": 87.06
     },
     {
       "eliminated_week": null,
@@ -200,7 +203,6 @@
         "13424",
         "2747",
         "3214",
-        "3286",
         "4039",
         "4943",
         "5859",
@@ -210,8 +212,8 @@
         "8151",
         "NE"
       ],
-      "points_against": 730.72,
-      "points_for": 779.22,
+      "points_against": 794.02,
+      "points_for": 859.7,
       "prior_week_points": {
         "1": 116.32,
         "2": 107.8,
@@ -219,21 +221,22 @@
         "4": 122.22,
         "5": 67.0,
         "6": 99.32,
-        "7": 74.28
+        "7": 74.28,
+        "8": 68.12
       },
       "record": {
         "losses": 2,
         "ties": 0,
-        "wins": 6
+        "wins": 7
       },
       "roster_id": "4",
       "starters": [
-        "4943",
+        "11565",
         "8151",
         "8150",
-        "12485",
-        "13274",
-        "3214",
+        "3286",
+        "4039",
+        "7002",
         "12527",
         "2747",
         "NE"
@@ -241,7 +244,7 @@
       "team": "OneMike",
       "team_id": "4",
       "waiver_budget_used": 47,
-      "week_points": 68.12
+      "week_points": 80.48
     },
     {
       "eliminated_week": null,
@@ -254,8 +257,10 @@
         "11603",
         "11632",
         "11637",
+        "12474",
         "12489",
         "12518",
+        "13275",
         "13302",
         "3198",
         "5927",
@@ -264,11 +269,10 @@
         "8122",
         "8210",
         "9502",
-        "9758",
         "GB"
       ],
-      "points_against": 893.88,
-      "points_for": 753.62,
+      "points_against": 959.02,
+      "points_for": 832.18,
       "prior_week_points": {
         "1": 90.14,
         "2": 89.02,
@@ -276,33 +280,34 @@
         "4": 96.56,
         "5": 115.62,
         "6": 90.58,
-        "7": 104.38
+        "7": 104.38,
+        "8": 67.68
       },
       "record": {
         "losses": 7,
         "ties": 0,
-        "wins": 1
+        "wins": 2
       },
       "roster_id": "5",
       "starters": [
         "11563",
         "3198",
-        "8122",
-        "10213",
+        "12474",
+        "11632",
         "7526",
         "12518",
-        "11637",
+        "10213",
         "7839",
         "GB"
       ],
       "team": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
       "team_id": "5",
       "waiver_budget_used": 5,
-      "week_points": 67.68
+      "week_points": 78.56
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 23,
+      "faab_remaining": 14,
       "manager": "DannyBoy413",
       "owner_id": "997877333677694976",
       "players": [
@@ -310,13 +315,13 @@
         "10859",
         "11559",
         "11584",
-        "13264",
+        "11786",
         "13269",
         "13293",
         "13337",
         "3163",
+        "4037",
         "4199",
-        "4227",
         "5045",
         "5849",
         "5872",
@@ -327,8 +332,8 @@
         "CIN",
         "DEN"
       ],
-      "points_against": 666.06,
-      "points_for": 828.08,
+      "points_against": 753.12,
+      "points_for": 913.98,
       "prior_week_points": {
         "1": 91.52,
         "2": 87.46,
@@ -336,36 +341,38 @@
         "4": 110.28,
         "5": 150.54,
         "6": 91.1,
-        "7": 88.02
+        "7": 88.02,
+        "8": 100.2
       },
       "record": {
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
         "wins": 6
       },
       "roster_id": "6",
       "starters": [
-        "5849",
+        "3163",
         "11584",
         "7594",
         "8112",
         "10229",
         "10859",
-        "13293",
-        "4227",
-        "CIN"
+        "4199",
+        "2020",
+        "DEN"
       ],
       "team": "Do Your Job",
       "team_id": "6",
-      "waiver_budget_used": 77,
-      "week_points": 100.2
+      "waiver_budget_used": 86,
+      "week_points": 85.9
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 83,
+      "faab_remaining": 66,
       "manager": "GRsUnit",
       "owner_id": "998760135847817216",
       "players": [
+        "11575",
         "11646",
         "12495",
         "12508",
@@ -375,18 +382,19 @@
         "13288",
         "13347",
         "1373",
-        "3257",
         "4147",
         "5846",
         "6650",
+        "8116",
         "8130",
         "8131",
         "8207",
         "9493",
-        "CAR"
+        "BUF",
+        "DET"
       ],
-      "points_against": 769.68,
-      "points_for": 808.34,
+      "points_against": 850.94,
+      "points_for": 903.24,
       "prior_week_points": {
         "1": 139.2,
         "2": 71.8,
@@ -394,37 +402,39 @@
         "4": 128.84,
         "5": 137.58,
         "6": 80.78,
-        "7": 104.38
+        "7": 104.38,
+        "8": 77.46
       },
       "record": {
         "losses": 4,
         "ties": 0,
-        "wins": 4
+        "wins": 5
       },
       "roster_id": "7",
       "starters": [
-        "3257",
+        "1373",
         "4147",
         "12495",
         "11646",
-        "5846",
-        "8130",
         "9493",
+        "8131",
+        "8130",
         "6650",
-        "CAR"
+        "DET"
       ],
       "team": "GRsUnit",
       "team_id": "7",
-      "waiver_budget_used": 17,
-      "week_points": 77.46
+      "waiver_budget_used": 34,
+      "week_points": 94.9
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 84,
+      "faab_remaining": 60,
       "manager": "kmillzbos617",
       "owner_id": "997625144065490944",
       "players": [
         "10222",
+        "11624",
         "12185",
         "13268",
         "1466",
@@ -439,12 +449,11 @@
         "6813",
         "7600",
         "8155",
-        "9506",
         "9756",
         "KC"
       ],
-      "points_against": 769.66,
-      "points_for": 794.46,
+      "points_against": 869.66,
+      "points_for": 890.64,
       "prior_week_points": {
         "1": 89.7,
         "2": 158.08,
@@ -452,58 +461,59 @@
         "4": 82.6,
         "5": 119.32,
         "6": 79.38,
-        "7": 72.8
+        "7": 72.8,
+        "8": 80.54
       },
       "record": {
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
         "wins": 4
       },
       "roster_id": "8",
       "starters": [
         "4046",
-        "4663",
+        "8155",
         "6813",
-        "9756",
+        "11624",
         "2449",
         "1466",
-        "1479",
+        "6130",
         "12185",
         "KC"
       ],
       "team": "Unstoppable\ud83d\ude08",
       "team_id": "8",
-      "waiver_budget_used": 16,
-      "week_points": 80.54
+      "waiver_budget_used": 40,
+      "week_points": 96.18
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 68,
+      "faab_remaining": 53,
       "manager": "barron344512",
       "owner_id": "1003908152556900352",
       "players": [
+        "11579",
         "11586",
+        "11653",
         "12519",
         "13301",
         "13330",
-        "13545",
         "4137",
         "4217",
+        "4866",
         "5844",
         "5947",
         "6770",
         "7564",
         "9224",
-        "9226",
+        "9225",
         "9228",
         "9511",
-        "9754",
-        "9757",
         "NO",
         "PIT"
       ],
-      "points_against": 823.84,
-      "points_for": 822.64,
+      "points_against": 952.3,
+      "points_for": 950.68,
       "prior_week_points": {
         "1": 92.56,
         "2": 104.08,
@@ -511,10 +521,11 @@
         "4": 80.32,
         "5": 70.7,
         "6": 102.94,
-        "7": 119.78
+        "7": 119.78,
+        "8": 149.78
       },
       "record": {
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
         "wins": 5
       },
@@ -522,18 +533,18 @@
       "starters": [
         "6770",
         "9224",
-        "11586",
+        "4866",
         "12519",
         "7564",
-        "5844",
-        "5947",
-        "13545",
-        "PIT"
+        "4217",
+        "11586",
+        "11653",
+        "NO"
       ],
       "team": "Smash N\u2019 Dash",
       "team_id": "9",
-      "waiver_budget_used": 32,
-      "week_points": 149.78
+      "waiver_budget_used": 47,
+      "week_points": 128.04
     },
     {
       "eliminated_week": null,
@@ -561,8 +572,8 @@
         "8408",
         "SEA"
       ],
-      "points_against": 851.68,
-      "points_for": 754.6,
+      "points_against": 930.24,
+      "points_for": 819.74,
       "prior_week_points": {
         "1": 97.94,
         "2": 77.68,
@@ -570,10 +581,11 @@
         "4": 119.1,
         "5": 63.1,
         "6": 96.62,
-        "7": 99.8
+        "7": 99.8,
+        "8": 124.78
       },
       "record": {
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
         "wins": 3
       },
@@ -583,20 +595,20 @@
         "6790",
         "5850",
         "10232",
-        "13279",
-        "5012",
         "12526",
+        "10236",
+        "12512",
         "6083",
         "SEA"
       ],
       "team": "Bsoares401",
       "team_id": "10",
       "waiver_budget_used": 84,
-      "week_points": 124.78
+      "week_points": 65.14
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 15,
+      "faab_remaining": 11,
       "manager": "pdoakland",
       "owner_id": "854241572278116352",
       "players": [
@@ -609,7 +621,7 @@
         "13346",
         "13413",
         "2216",
-        "650",
+        "2505",
         "6801",
         "7547",
         "8132",
@@ -617,10 +629,10 @@
         "96",
         "9997",
         "CHI",
-        "WAS"
+        "IND"
       ],
-      "points_against": 778.02,
-      "points_for": 934.8,
+      "points_against": 941.1,
+      "points_for": 1048.96,
       "prior_week_points": {
         "1": 112.46,
         "2": 104.04,
@@ -628,10 +640,11 @@
         "4": 89.64,
         "5": 121.96,
         "6": 94.72,
-        "7": 112.08
+        "7": 112.08,
+        "8": 141.88
       },
       "record": {
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
         "wins": 6
       },
@@ -643,29 +656,29 @@
         "9997",
         "6801",
         "12506",
-        "13287",
-        "650",
-        "WAS"
+        "7547",
+        "13833",
+        "CHI"
       ],
       "team": "Las Vegas \u201cPray\u201dders",
       "team_id": "11",
-      "waiver_budget_used": 85,
-      "week_points": 141.88
+      "waiver_budget_used": 89,
+      "week_points": 114.16
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 60,
+      "faab_remaining": 58,
       "manager": "Momoney1288",
       "owner_id": "1128396360727789568",
       "players": [
         "11620",
+        "12457",
         "12484",
         "12493",
         "12535",
-        "12711",
         "13150",
         "13285",
-        "4017",
+        "13968",
         "5892",
         "6786",
         "6803",
@@ -675,11 +688,11 @@
         "8183",
         "8228",
         "8676",
-        "9494",
+        "9504",
         "PHI"
       ],
-      "points_against": 914.84,
-      "points_for": 767.38,
+      "points_against": 996.62,
+      "points_for": 874.66,
       "prior_week_points": {
         "1": 109.6,
         "2": 100.58,
@@ -687,29 +700,30 @@
         "4": 121.42,
         "5": 95.46,
         "6": 66.56,
-        "7": 87.62
+        "7": 87.62,
+        "8": 85.06
       },
       "record": {
         "losses": 5,
         "ties": 0,
-        "wins": 3
+        "wins": 4
       },
       "roster_id": "12",
       "starters": [
-        "4017",
+        "8183",
         "7611",
-        "8228",
+        "12457",
         "11620",
         "6786",
         "12493",
         "13150",
-        "12711",
+        "13968",
         "PHI"
       ],
       "team": "Momoney1288",
       "team_id": "12",
-      "waiver_budget_used": 40,
-      "week_points": 85.06
+      "waiver_budget_used": 42,
+      "week_points": 107.28
     },
     {
       "eliminated_week": null,
@@ -718,29 +732,27 @@
       "owner_id": "997689563722072064",
       "players": [
         "11576",
-        "12474",
         "12501",
         "12514",
         "12533",
-        "12547",
-        "13275",
+        "12634",
         "13281",
         "13348",
         "13417",
         "3451",
         "4034",
-        "6797",
         "6804",
         "6806",
         "8148",
         "8205",
         "9480",
         "9509",
-        "ATL",
+        "9758",
+        "DAL",
         "SF"
       ],
-      "points_against": 789.72,
-      "points_for": 877.1,
+      "points_against": 903.88,
+      "points_for": 1040.18,
       "prior_week_points": {
         "1": 103.76,
         "2": 95.08,
@@ -748,29 +760,30 @@
         "4": 76.58,
         "5": 162.78,
         "6": 122.74,
-        "7": 109.56
+        "7": 109.56,
+        "8": 105.62
       },
       "record": {
         "losses": 4,
         "ties": 0,
-        "wins": 4
+        "wins": 5
       },
       "roster_id": "13",
       "starters": [
         "6804",
-        "11576",
         "9509",
+        "4034",
         "12501",
         "8148",
         "9480",
-        "6806",
-        "10955",
-        "ATL"
+        "11576",
+        "3451",
+        "SF"
       ],
       "team": "Jerry\u2019s World",
       "team_id": "13",
       "waiver_budget_used": 29,
-      "week_points": 105.62
+      "week_points": 163.08
     },
     {
       "eliminated_week": null,
@@ -786,18 +799,18 @@
         "13320",
         "13345",
         "13353",
+        "5854",
         "5967",
         "7525",
         "7553",
         "8135",
         "8136",
         "8154",
-        "8180",
         "9500",
         "LAR"
       ],
-      "points_against": 798.34,
-      "points_for": 729.76,
+      "points_against": 893.24,
+      "points_for": 811.02,
       "prior_week_points": {
         "1": 84.76,
         "2": 86.22,
@@ -805,10 +818,11 @@
         "4": 98.62,
         "5": 56.8,
         "6": 102.0,
-        "7": 106.42
+        "7": 106.42,
+        "8": 113.68
       },
       "record": {
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
         "wins": 4
       },
@@ -816,46 +830,45 @@
       "starters": [
         "11560",
         "13345",
-        "5967",
+        "8136",
         "12542",
         "9500",
         "7553",
-        "8136",
+        "13305",
         "11533",
         "LAR"
       ],
       "team": "lanbel",
       "team_id": "14",
       "waiver_budget_used": 3,
-      "week_points": 113.68
+      "week_points": 81.26
     },
     {
       "eliminated_week": null,
-      "faab_remaining": 45,
+      "faab_remaining": 33,
       "manager": "jsoares7711",
       "owner_id": "998634846542987264",
       "players": [
         "10219",
         "11783",
-        "11786",
         "11834",
         "12492",
         "12507",
         "12517",
         "12536",
         "12545",
-        "13286",
         "13294",
         "13296",
-        "4037",
-        "4866",
+        "1433",
+        "3271",
         "6794",
         "7523",
+        "9226",
         "BAL",
         "TB"
       ],
-      "points_against": 866.88,
-      "points_for": 688.26,
+      "points_against": 974.16,
+      "points_for": 770.04,
       "prior_week_points": {
         "1": 118.7,
         "2": 81.96,
@@ -863,29 +876,30 @@
         "4": 56.98,
         "5": 76.04,
         "6": 118.46,
-        "7": 69.42
+        "7": 69.42,
+        "8": 99.1
       },
       "record": {
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
         "wins": 3
       },
       "roster_id": "15",
       "starters": [
         "7523",
-        "4866",
+        "10219",
         "12507",
         "6794",
         "11783",
         "12517",
-        "13294",
-        "11786",
+        "13296",
+        "3678",
         "TB"
       ],
       "team": "BallSoHardUniversity",
       "team_id": "15",
-      "waiver_budget_used": 55,
-      "week_points": 99.1
+      "waiver_budget_used": 67,
+      "week_points": 81.78
     },
     {
       "eliminated_week": null,
@@ -898,8 +912,8 @@
         "11628",
         "11635",
         "11647",
-        "12499",
         "3294",
+        "4017",
         "4035",
         "7021",
         "7042",
@@ -911,8 +925,8 @@
         "CLE",
         "MIN"
       ],
-      "points_against": 761.42,
-      "points_for": 735.54,
+      "points_against": 857.6,
+      "points_for": 835.54,
       "prior_week_points": {
         "1": 88.3,
         "2": 81.26,
@@ -920,29 +934,30 @@
         "4": 89.4,
         "5": 102.94,
         "6": 67.42,
-        "7": 74.88
+        "7": 74.88,
+        "8": 107.9
       },
       "record": {
         "losses": 4,
         "ties": 0,
-        "wins": 4
+        "wins": 5
       },
       "roster_id": "16",
       "starters": [
         "3294",
         "11647",
-        "7021",
-        "12499",
-        "8146",
-        "11604",
+        "4035",
+        "7569",
         "11635",
+        "11604",
+        "9501",
         "7042",
-        "CLE"
+        "MIN"
       ],
       "team": "Killanomics Empire",
       "team_id": "16",
       "waiver_budget_used": 46,
-      "week_points": 107.9
+      "week_points": 100.0
     }
   ],
   "matchups": [
@@ -950,13 +965,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -40.46,
+      "margin": -17.18,
       "matchup_id": "1",
-      "opponent": "alesclub",
-      "opponent_id": "3",
-      "opponent_score": 99.56,
+      "opponent": "OneMike",
+      "opponent_id": "4",
+      "opponent_score": 80.48,
       "result": "LOSS",
-      "score": 59.1,
+      "score": 63.3,
       "team": "Clobberknockers",
       "team_id": "2"
     },
@@ -964,27 +979,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": 40.46,
+      "margin": 17.18,
       "matchup_id": "1",
       "opponent": "Clobberknockers",
       "opponent_id": "2",
-      "opponent_score": 59.1,
+      "opponent_score": 63.3,
       "result": "WIN",
-      "score": 99.56,
-      "team": "alesclub",
-      "team_id": "3"
-    },
-    {
-      "data_status": {
-        "score": "ACTUAL"
-      },
-      "margin": -32.08,
-      "matchup_id": "2",
-      "opponent": "Do Your Job",
-      "opponent_id": "6",
-      "opponent_score": 100.2,
-      "result": "LOSS",
-      "score": 68.12,
+      "score": 80.48,
       "team": "OneMike",
       "team_id": "4"
     },
@@ -992,13 +993,27 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": 32.08,
+      "margin": 1.16,
       "matchup_id": "2",
-      "opponent": "OneMike",
-      "opponent_id": "4",
-      "opponent_score": 68.12,
+      "opponent": "Do Your Job",
+      "opponent_id": "6",
+      "opponent_score": 85.9,
       "result": "WIN",
-      "score": 100.2,
+      "score": 87.06,
+      "team": "alesclub",
+      "team_id": "3"
+    },
+    {
+      "data_status": {
+        "score": "ACTUAL"
+      },
+      "margin": -1.16,
+      "matchup_id": "2",
+      "opponent": "alesclub",
+      "opponent_id": "3",
+      "opponent_score": 87.06,
+      "result": "LOSS",
+      "score": 85.9,
       "team": "Do Your Job",
       "team_id": "6"
     },
@@ -1006,13 +1021,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -3.08,
+      "margin": 13.64,
       "matchup_id": "3",
-      "opponent": "Unstoppable\ud83d\ude08",
-      "opponent_id": "8",
-      "opponent_score": 80.54,
-      "result": "LOSS",
-      "score": 77.46,
+      "opponent": "lanbel",
+      "opponent_id": "14",
+      "opponent_score": 81.26,
+      "result": "WIN",
+      "score": 94.9,
       "team": "GRsUnit",
       "team_id": "7"
     },
@@ -1020,27 +1035,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": 3.08,
+      "margin": -13.64,
       "matchup_id": "3",
       "opponent": "GRsUnit",
       "opponent_id": "7",
-      "opponent_score": 77.46,
-      "result": "WIN",
-      "score": 80.54,
-      "team": "Unstoppable\ud83d\ude08",
-      "team_id": "8"
-    },
-    {
-      "data_status": {
-        "score": "ACTUAL"
-      },
-      "margin": 5.78,
-      "matchup_id": "4",
-      "opponent": "Killanomics Empire",
-      "opponent_id": "16",
-      "opponent_score": 107.9,
-      "result": "WIN",
-      "score": 113.68,
+      "opponent_score": 94.9,
+      "result": "LOSS",
+      "score": 81.26,
       "team": "lanbel",
       "team_id": "14"
     },
@@ -1048,13 +1049,27 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -5.78,
+      "margin": -3.82,
       "matchup_id": "4",
-      "opponent": "lanbel",
-      "opponent_id": "14",
-      "opponent_score": 113.68,
+      "opponent": "Killanomics Empire",
+      "opponent_id": "16",
+      "opponent_score": 100.0,
       "result": "LOSS",
-      "score": 107.9,
+      "score": 96.18,
+      "team": "Unstoppable\ud83d\ude08",
+      "team_id": "8"
+    },
+    {
+      "data_status": {
+        "score": "ACTUAL"
+      },
+      "margin": 3.82,
+      "matchup_id": "4",
+      "opponent": "Unstoppable\ud83d\ude08",
+      "opponent_id": "8",
+      "opponent_score": 96.18,
+      "result": "WIN",
+      "score": 100.0,
       "team": "Killanomics Empire",
       "team_id": "16"
     },
@@ -1062,13 +1077,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": 42.08,
+      "margin": 0.42,
       "matchup_id": "5",
-      "opponent": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
-      "opponent_id": "5",
-      "opponent_score": 67.68,
+      "opponent": "Smash N\u2019 Dash",
+      "opponent_id": "9",
+      "opponent_score": 128.04,
       "result": "WIN",
-      "score": 109.76,
+      "score": 128.46,
       "team": "Traffic Cones",
       "team_id": "1"
     },
@@ -1076,27 +1091,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -42.08,
+      "margin": -0.42,
       "matchup_id": "5",
       "opponent": "Traffic Cones",
       "opponent_id": "1",
-      "opponent_score": 109.76,
+      "opponent_score": 128.46,
       "result": "LOSS",
-      "score": 67.68,
-      "team": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
-      "team_id": "5"
-    },
-    {
-      "data_status": {
-        "score": "ACTUAL"
-      },
-      "margin": 25.0,
-      "matchup_id": "6",
-      "opponent": "Bsoares401",
-      "opponent_id": "10",
-      "opponent_score": 124.78,
-      "result": "WIN",
-      "score": 149.78,
+      "score": 128.04,
       "team": "Smash N\u2019 Dash",
       "team_id": "9"
     },
@@ -1104,13 +1105,27 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -25.0,
+      "margin": 13.42,
       "matchup_id": "6",
-      "opponent": "Smash N\u2019 Dash",
-      "opponent_id": "9",
-      "opponent_score": 149.78,
+      "opponent": "Bsoares401",
+      "opponent_id": "10",
+      "opponent_score": 65.14,
+      "result": "WIN",
+      "score": 78.56,
+      "team": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
+      "team_id": "5"
+    },
+    {
+      "data_status": {
+        "score": "ACTUAL"
+      },
+      "margin": -13.42,
+      "matchup_id": "6",
+      "opponent": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
+      "opponent_id": "5",
+      "opponent_score": 78.56,
       "result": "LOSS",
-      "score": 124.78,
+      "score": 65.14,
       "team": "Bsoares401",
       "team_id": "10"
     },
@@ -1118,13 +1133,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": 56.82,
+      "margin": -48.92,
       "matchup_id": "7",
-      "opponent": "Momoney1288",
-      "opponent_id": "12",
-      "opponent_score": 85.06,
-      "result": "WIN",
-      "score": 141.88,
+      "opponent": "Jerry\u2019s World",
+      "opponent_id": "13",
+      "opponent_score": 163.08,
+      "result": "LOSS",
+      "score": 114.16,
       "team": "Las Vegas \u201cPray\u201dders",
       "team_id": "11"
     },
@@ -1132,27 +1147,13 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -56.82,
+      "margin": 48.92,
       "matchup_id": "7",
       "opponent": "Las Vegas \u201cPray\u201dders",
       "opponent_id": "11",
-      "opponent_score": 141.88,
-      "result": "LOSS",
-      "score": 85.06,
-      "team": "Momoney1288",
-      "team_id": "12"
-    },
-    {
-      "data_status": {
-        "score": "ACTUAL"
-      },
-      "margin": 6.52,
-      "matchup_id": "8",
-      "opponent": "BallSoHardUniversity",
-      "opponent_id": "15",
-      "opponent_score": 99.1,
+      "opponent_score": 114.16,
       "result": "WIN",
-      "score": 105.62,
+      "score": 163.08,
       "team": "Jerry\u2019s World",
       "team_id": "13"
     },
@@ -1160,13 +1161,27 @@
       "data_status": {
         "score": "ACTUAL"
       },
-      "margin": -6.52,
+      "margin": 25.5,
       "matchup_id": "8",
-      "opponent": "Jerry\u2019s World",
-      "opponent_id": "13",
-      "opponent_score": 105.62,
+      "opponent": "BallSoHardUniversity",
+      "opponent_id": "15",
+      "opponent_score": 81.78,
+      "result": "WIN",
+      "score": 107.28,
+      "team": "Momoney1288",
+      "team_id": "12"
+    },
+    {
+      "data_status": {
+        "score": "ACTUAL"
+      },
+      "margin": -25.5,
+      "matchup_id": "8",
+      "opponent": "Momoney1288",
+      "opponent_id": "12",
+      "opponent_score": 107.28,
       "result": "LOSS",
-      "score": 99.1,
+      "score": 81.78,
       "team": "BallSoHardUniversity",
       "team_id": "15"
     }
@@ -1174,13 +1189,13 @@
   "power_rankings": [
     {
       "components": {
-        "all_play": 0.8666666666666667,
-        "depth": 34.87,
+        "all_play": 0.8740740740740741,
+        "depth": 20.69,
         "health": 100.0,
-        "recent_scoring": 128.22,
-        "record": 0.875,
-        "season_scoring": 129.4,
-        "starter_projection": 129.07
+        "recent_scoring": 118.935,
+        "record": 0.8888888888888888,
+        "season_scoring": 129.29555555555555,
+        "starter_projection": 120.58999999999997
       },
       "data_status": "DERIVED",
       "manager": "tbach24",
@@ -1189,9 +1204,10 @@
       "rank": 1,
       "reasons": [
         "strong record",
-        "strong season scoring"
+        "strong season scoring",
+        "depth remains a drag"
       ],
-      "score": 97.33,
+      "score": 94.06,
       "team": "Traffic Cones",
       "team_id": "1",
       "weights_used": {
@@ -1206,13 +1222,13 @@
     },
     {
       "components": {
-        "all_play": 0.7333333333333333,
-        "depth": 60.419999999999995,
-        "health": 88.88888888888889,
-        "recent_scoring": 117.66,
-        "record": 0.75,
-        "season_scoring": 116.85,
-        "starter_projection": 109.63000000000001
+        "all_play": 0.7407407407407407,
+        "depth": 39.78,
+        "health": 100.0,
+        "recent_scoring": 115.71000000000001,
+        "record": 0.6666666666666666,
+        "season_scoring": 116.55111111111111,
+        "starter_projection": 115.5
       },
       "data_status": "DERIVED",
       "manager": "pdoakland",
@@ -1220,11 +1236,10 @@
       "previous_rank": 2,
       "rank": 2,
       "reasons": [
-        "strong depth",
-        "strong record",
-        "health remains a drag"
+        "strong health",
+        "strong starter projection"
       ],
-      "score": 73.13,
+      "score": 77.6,
       "team": "Las Vegas \u201cPray\u201dders",
       "team_id": "11",
       "weights_used": {
@@ -1239,57 +1254,24 @@
     },
     {
       "components": {
-        "all_play": 0.5333333333333333,
-        "depth": 60.959999999999994,
+        "all_play": 0.6592592592592592,
+        "depth": 50.64,
         "health": 100.0,
-        "recent_scoring": 107.46499999999999,
-        "record": 0.75,
-        "season_scoring": 103.51,
-        "starter_projection": 104.24999999999999
+        "recent_scoring": 125.25,
+        "record": 0.5555555555555556,
+        "season_scoring": 115.57555555555557,
+        "starter_projection": 116.89
       },
       "data_status": "DERIVED",
-      "manager": "DannyBoy413",
+      "manager": "jdamiani07",
       "movement": 1,
       "previous_rank": 4,
       "rank": 3,
       "reasons": [
-        "strong health",
-        "strong depth"
-      ],
-      "score": 61.39,
-      "team": "Do Your Job",
-      "team_id": "6",
-      "weights_used": {
-        "all_play": 0.15,
-        "depth": 0.05,
-        "health": 0.05,
-        "recent_scoring": 0.2,
-        "record": 0.2,
-        "season_scoring": 0.2,
-        "starter_projection": 0.15
-      }
-    },
-    {
-      "components": {
-        "all_play": 0.6166666666666667,
-        "depth": 21.06,
-        "health": 100.0,
-        "recent_scoring": 125.175,
-        "record": 0.5,
-        "season_scoring": 109.6375,
-        "starter_projection": 96.44000000000001
-      },
-      "data_status": "DERIVED",
-      "manager": "jdamiani07",
-      "movement": -1,
-      "previous_rank": 3,
-      "rank": 4,
-      "reasons": [
-        "strong health",
         "strong recent scoring",
-        "depth remains a drag"
+        "strong health"
       ],
-      "score": 61.12,
+      "score": 76.79,
       "team": "Jerry\u2019s World",
       "team_id": "13",
       "weights_used": {
@@ -1304,24 +1286,24 @@
     },
     {
       "components": {
-        "all_play": 0.6,
-        "depth": 39.940000000000005,
+        "all_play": 0.6296296296296297,
+        "depth": 57.949999999999996,
         "health": 100.0,
-        "recent_scoring": 110.79999999999998,
-        "record": 0.625,
-        "season_scoring": 102.83,
-        "starter_projection": 107.92
+        "recent_scoring": 125.13499999999999,
+        "record": 0.5555555555555556,
+        "season_scoring": 105.63111111111111,
+        "starter_projection": 111.82
       },
       "data_status": "DERIVED",
       "manager": "barron344512",
-      "movement": 2,
-      "previous_rank": 7,
-      "rank": 5,
+      "movement": 1,
+      "previous_rank": 5,
+      "rank": 4,
       "reasons": [
         "strong health",
-        "strong record"
+        "strong recent scoring"
       ],
-      "score": 60.23,
+      "score": 70.74,
       "team": "Smash N\u2019 Dash",
       "team_id": "9",
       "weights_used": {
@@ -1336,13 +1318,46 @@
     },
     {
       "components": {
-        "all_play": 0.5125,
-        "depth": 32.59,
+        "all_play": 0.5185185185185185,
+        "depth": 53.28999999999999,
         "health": 100.0,
-        "recent_scoring": 100.05,
-        "record": 0.5,
-        "season_scoring": 101.0425,
-        "starter_projection": 109.29999999999998
+        "recent_scoring": 91.305,
+        "record": 0.6666666666666666,
+        "season_scoring": 101.55333333333334,
+        "starter_projection": 110.39
+      },
+      "data_status": "DERIVED",
+      "manager": "DannyBoy413",
+      "movement": -2,
+      "previous_rank": 3,
+      "rank": 5,
+      "reasons": [
+        "strong health",
+        "strong depth",
+        "recent scoring remains a drag"
+      ],
+      "score": 56.64,
+      "team": "Do Your Job",
+      "team_id": "6",
+      "weights_used": {
+        "all_play": 0.15,
+        "depth": 0.05,
+        "health": 0.05,
+        "recent_scoring": 0.2,
+        "record": 0.2,
+        "season_scoring": 0.2,
+        "starter_projection": 0.15
+      }
+    },
+    {
+      "components": {
+        "all_play": 0.5148148148148148,
+        "depth": 24.46,
+        "health": 100.0,
+        "recent_scoring": 89.38,
+        "record": 0.5555555555555556,
+        "season_scoring": 100.36,
+        "starter_projection": 101.69000000000001
       },
       "data_status": "DERIVED",
       "manager": "GRsUnit",
@@ -1352,9 +1367,9 @@
       "reasons": [
         "strong health",
         "strong starter projection",
-        "season scoring remains a drag"
+        "depth remains a drag"
       ],
-      "score": 49.62,
+      "score": 46.4,
       "team": "GRsUnit",
       "team_id": "7",
       "weights_used": {
@@ -1369,25 +1384,25 @@
     },
     {
       "components": {
-        "all_play": 0.5583333333333333,
-        "depth": 27.310000000000002,
-        "health": 88.88888888888889,
-        "recent_scoring": 77.18,
-        "record": 0.75,
-        "season_scoring": 97.4025,
-        "starter_projection": 109.31
+        "all_play": 0.5185185185185185,
+        "depth": 28.77,
+        "health": 100.0,
+        "recent_scoring": 80.55,
+        "record": 0.7777777777777778,
+        "season_scoring": 95.52222222222223,
+        "starter_projection": 93.95999999999998
       },
       "data_status": "DERIVED",
       "manager": "Bolle425",
-      "movement": -2,
-      "previous_rank": 5,
+      "movement": 0,
+      "previous_rank": 7,
       "rank": 7,
       "reasons": [
+        "strong health",
         "strong record",
-        "strong starter projection",
         "recent scoring remains a drag"
       ],
-      "score": 42.24,
+      "score": 45.53,
       "team": "OneMike",
       "team_id": "4",
       "weights_used": {
@@ -1402,25 +1417,25 @@
     },
     {
       "components": {
-        "all_play": 0.4,
-        "depth": 25.270000000000003,
+        "all_play": 0.4222222222222222,
+        "depth": 43.3,
         "health": 100.0,
-        "recent_scoring": 88.01,
-        "record": 0.5,
-        "season_scoring": 99.3075,
-        "starter_projection": 91.00999999999999
+        "recent_scoring": 82.22500000000001,
+        "record": 0.4444444444444444,
+        "season_scoring": 98.96,
+        "starter_projection": 109.29999999999998
       },
       "data_status": "DERIVED",
       "manager": "kmillzbos617",
-      "movement": 3,
-      "previous_rank": 11,
+      "movement": 0,
+      "previous_rank": 8,
       "rank": 8,
       "reasons": [
         "strong health",
-        "strong record",
-        "all play remains a drag"
+        "strong starter projection",
+        "recent scoring remains a drag"
       ],
-      "score": 35.66,
+      "score": 42.1,
       "team": "Unstoppable\ud83d\ude08",
       "team_id": "8",
       "weights_used": {
@@ -1435,91 +1450,25 @@
     },
     {
       "components": {
-        "all_play": 0.45,
-        "depth": 70.95,
-        "health": 88.88888888888889,
-        "recent_scoring": 96.07499999999999,
-        "record": 0.375,
-        "season_scoring": 94.325,
-        "starter_projection": 94.68
-      },
-      "data_status": "DERIVED",
-      "manager": "Bsoares401",
-      "movement": 0,
-      "previous_rank": 9,
-      "rank": 9,
-      "reasons": [
-        "strong depth",
-        "strong recent scoring",
-        "health remains a drag"
-      ],
-      "score": 34.56,
-      "team": "Bsoares401",
-      "team_id": "10",
-      "weights_used": {
-        "all_play": 0.15,
-        "depth": 0.05,
-        "health": 0.05,
-        "recent_scoring": 0.2,
-        "record": 0.2,
-        "season_scoring": 0.2,
-        "starter_projection": 0.15
-      }
-    },
-    {
-      "components": {
-        "all_play": 0.425,
-        "depth": 15.709999999999999,
+        "all_play": 0.4148148148148148,
+        "depth": 17.35,
         "health": 100.0,
-        "recent_scoring": 94.72500000000001,
-        "record": 0.5,
-        "season_scoring": 91.22,
-        "starter_projection": 88.65
-      },
-      "data_status": "DERIVED",
-      "manager": "lanbel",
-      "movement": 3,
-      "previous_rank": 13,
-      "rank": 10,
-      "reasons": [
-        "strong health",
-        "strong record",
-        "depth remains a drag"
-      ],
-      "score": 34.06,
-      "team": "lanbel",
-      "team_id": "14",
-      "weights_used": {
-        "all_play": 0.15,
-        "depth": 0.05,
-        "health": 0.05,
-        "recent_scoring": 0.2,
-        "record": 0.2,
-        "season_scoring": 0.2,
-        "starter_projection": 0.15
-      }
-    },
-    {
-      "components": {
-        "all_play": 0.38333333333333336,
-        "depth": 20.23,
-        "health": 100.0,
-        "recent_scoring": 88.285,
-        "record": 0.5,
-        "season_scoring": 91.9425,
-        "starter_projection": 96.92999999999999
+        "recent_scoring": 87.55000000000001,
+        "record": 0.5555555555555556,
+        "season_scoring": 92.83777777777777,
+        "starter_projection": 100.56
       },
       "data_status": "DERIVED",
       "manager": "killanomic5",
-      "movement": 1,
-      "previous_rank": 12,
-      "rank": 11,
+      "movement": 2,
+      "previous_rank": 11,
+      "rank": 9,
       "reasons": [
         "strong health",
-        "strong record",
-        "all play remains a drag"
+        "strong starter projection",
+        "depth remains a drag"
       ],
-      "score": 33.51,
+      "score": 39.27,
       "team": "Killanomics Empire",
       "team_id": "16",
       "weights_used": {
@@ -1534,91 +1483,25 @@
     },
     {
       "components": {
-        "all_play": 0.44166666666666665,
-        "depth": 3.38,
+        "all_play": 0.4962962962962963,
+        "depth": 18.490000000000002,
         "health": 100.0,
-        "recent_scoring": 91.665,
-        "record": 0.25,
-        "season_scoring": 97.59,
-        "starter_projection": 88.89999999999999
-      },
-      "data_status": "DERIVED",
-      "manager": "alesclub",
-      "movement": 2,
-      "previous_rank": 14,
-      "rank": 12,
-      "reasons": [
-        "strong health",
-        "strong season scoring",
-        "depth remains a drag"
-      ],
-      "score": 28.51,
-      "team": "alesclub",
-      "team_id": "3",
-      "weights_used": {
-        "all_play": 0.15,
-        "depth": 0.05,
-        "health": 0.05,
-        "recent_scoring": 0.2,
-        "record": 0.2,
-        "season_scoring": 0.2,
-        "starter_projection": 0.15
-      }
-    },
-    {
-      "components": {
-        "all_play": 0.3416666666666667,
-        "depth": 30.53,
-        "health": 100.0,
-        "recent_scoring": 90.755,
-        "record": 0.375,
-        "season_scoring": 86.0325,
-        "starter_projection": 95.98
-      },
-      "data_status": "DERIVED",
-      "manager": "jsoares7711",
-      "movement": 2,
-      "previous_rank": 15,
-      "rank": 13,
-      "reasons": [
-        "strong health",
-        "strong depth",
-        "season scoring remains a drag"
-      ],
-      "score": 28.04,
-      "team": "BallSoHardUniversity",
-      "team_id": "15",
-      "weights_used": {
-        "all_play": 0.15,
-        "depth": 0.05,
-        "health": 0.05,
-        "recent_scoring": 0.2,
-        "record": 0.2,
-        "season_scoring": 0.2,
-        "starter_projection": 0.15
-      }
-    },
-    {
-      "components": {
-        "all_play": 0.4666666666666667,
-        "depth": 7.26,
-        "health": 88.88888888888889,
-        "recent_scoring": 83.675,
-        "record": 0.375,
-        "season_scoring": 95.9225,
-        "starter_projection": 92.67000000000002
+        "recent_scoring": 86.63,
+        "record": 0.4444444444444444,
+        "season_scoring": 97.18444444444444,
+        "starter_projection": 90.42
       },
       "data_status": "DERIVED",
       "manager": "Momoney1288",
-      "movement": -6,
-      "previous_rank": 8,
-      "rank": 14,
+      "movement": 4,
+      "previous_rank": 14,
+      "rank": 10,
       "reasons": [
-        "strong record",
+        "strong health",
         "strong all play",
         "depth remains a drag"
       ],
-      "score": 25.59,
+      "score": 35.7,
       "team": "Momoney1288",
       "team_id": "12",
       "weights_used": {
@@ -1633,25 +1516,157 @@
     },
     {
       "components": {
-        "all_play": 0.3958333333333333,
-        "depth": 13.469999999999999,
+        "all_play": 0.4074074074074074,
+        "depth": 17.17,
+        "health": 100.0,
+        "recent_scoring": 100.84,
+        "record": 0.4444444444444444,
+        "season_scoring": 90.11333333333333,
+        "starter_projection": 88.49
+      },
+      "data_status": "DERIVED",
+      "manager": "lanbel",
+      "movement": -1,
+      "previous_rank": 10,
+      "rank": 11,
+      "reasons": [
+        "strong health",
+        "strong recent scoring",
+        "season scoring remains a drag"
+      ],
+      "score": 35.0,
+      "team": "lanbel",
+      "team_id": "14",
+      "weights_used": {
+        "all_play": 0.15,
+        "depth": 0.05,
+        "health": 0.05,
+        "recent_scoring": 0.2,
+        "record": 0.2,
+        "season_scoring": 0.2,
+        "starter_projection": 0.15
+      }
+    },
+    {
+      "components": {
+        "all_play": 0.4074074074074074,
+        "depth": 63.900000000000006,
+        "health": 77.77777777777777,
+        "recent_scoring": 96.58500000000001,
+        "record": 0.3333333333333333,
+        "season_scoring": 91.08222222222223,
+        "starter_projection": 96.75
+      },
+      "data_status": "DERIVED",
+      "manager": "Bsoares401",
+      "movement": -3,
+      "previous_rank": 9,
+      "rank": 12,
+      "reasons": [
+        "strong depth",
+        "strong recent scoring",
+        "health remains a drag"
+      ],
+      "score": 32.52,
+      "team": "Bsoares401",
+      "team_id": "10",
+      "weights_used": {
+        "all_play": 0.15,
+        "depth": 0.05,
+        "health": 0.05,
+        "recent_scoring": 0.2,
+        "record": 0.2,
+        "season_scoring": 0.2,
+        "starter_projection": 0.15
+      }
+    },
+    {
+      "components": {
+        "all_play": 0.4444444444444444,
+        "depth": 4.93,
+        "health": 100.0,
+        "recent_scoring": 83.69,
+        "record": 0.3333333333333333,
+        "season_scoring": 96.42,
+        "starter_projection": 90.6
+      },
+      "data_status": "DERIVED",
+      "manager": "alesclub",
+      "movement": -1,
+      "previous_rank": 12,
+      "rank": 13,
+      "reasons": [
+        "strong health",
+        "strong season scoring",
+        "depth remains a drag"
+      ],
+      "score": 28.68,
+      "team": "alesclub",
+      "team_id": "3",
+      "weights_used": {
+        "all_play": 0.15,
+        "depth": 0.05,
+        "health": 0.05,
+        "recent_scoring": 0.2,
+        "record": 0.2,
+        "season_scoring": 0.2,
+        "starter_projection": 0.15
+      }
+    },
+    {
+      "components": {
+        "all_play": 0.34074074074074073,
+        "depth": 54.68000000000001,
+        "health": 100.0,
+        "recent_scoring": 92.19,
+        "record": 0.3333333333333333,
+        "season_scoring": 85.56,
+        "starter_projection": 82.07000000000001
+      },
+      "data_status": "DERIVED",
+      "manager": "jsoares7711",
+      "movement": -1,
+      "previous_rank": 13,
+      "rank": 14,
+      "reasons": [
+        "strong health",
+        "strong depth",
+        "starter projection remains a drag"
+      ],
+      "score": 25.92,
+      "team": "BallSoHardUniversity",
+      "team_id": "15",
+      "weights_used": {
+        "all_play": 0.15,
+        "depth": 0.05,
+        "health": 0.05,
+        "recent_scoring": 0.2,
+        "record": 0.2,
+        "season_scoring": 0.2,
+        "starter_projection": 0.15
+      }
+    },
+    {
+      "components": {
+        "all_play": 0.36666666666666664,
+        "depth": 22.64,
         "health": 88.88888888888889,
-        "recent_scoring": 94.565,
-        "record": 0.125,
-        "season_scoring": 94.2025,
-        "starter_projection": 80.01
+        "recent_scoring": 85.3,
+        "record": 0.2222222222222222,
+        "season_scoring": 92.46444444444444,
+        "starter_projection": 96.4
       },
       "data_status": "DERIVED",
       "manager": "TyTheGreatest",
-      "movement": -5,
-      "previous_rank": 10,
+      "movement": 0,
+      "previous_rank": 15,
       "rank": 15,
       "reasons": [
-        "strong recent scoring",
-        "strong season scoring",
+        "strong health",
+        "strong starter projection",
         "record remains a drag"
       ],
-      "score": 17.47,
+      "score": 23.58,
       "team": "Catch These Hands \ud83d\udc4a\ud83c\udfff",
       "team_id": "5",
       "weights_used": {
@@ -1666,13 +1681,13 @@
     },
     {
       "components": {
-        "all_play": 0.275,
-        "depth": 11.05,
-        "health": 87.5,
-        "recent_scoring": 76.36500000000001,
-        "record": 0.25,
-        "season_scoring": 82.505,
-        "starter_projection": 76.14
+        "all_play": 0.24444444444444444,
+        "depth": 19.25,
+        "health": 100.0,
+        "recent_scoring": 69.78,
+        "record": 0.2222222222222222,
+        "season_scoring": 80.37111111111112,
+        "starter_projection": 79.67999999999999
       },
       "data_status": "DERIVED",
       "manager": "bayoklein",
@@ -1680,11 +1695,11 @@
       "previous_rank": 16,
       "rank": 16,
       "reasons": [
-        "strong record",
+        "strong health",
         "strong depth",
-        "season scoring remains a drag"
+        "record remains a drag"
       ],
-      "score": 3.9,
+      "score": 6.21,
       "team": "Clobberknockers",
       "team_id": "2",
       "weights_used": {
@@ -1715,10 +1730,10 @@
       },
       {
         "contract_summary": {
-          "expiring": 3,
-          "players": 25,
-          "rookie_contracts": 5,
-          "salary": 87.0
+          "expiring": 1,
+          "players": 26,
+          "rookie_contracts": 6,
+          "salary": 6.0
         },
         "contract_team_id": "BAYOKLEIN",
         "data_status": "ACTUAL",
@@ -1728,7 +1743,7 @@
       {
         "contract_summary": {
           "expiring": 0,
-          "players": 22,
+          "players": 23,
           "rookie_contracts": 1,
           "salary": 24.0
         },
@@ -1740,8 +1755,8 @@
       {
         "contract_summary": {
           "expiring": 2,
-          "players": 21,
-          "rookie_contracts": 4,
+          "players": 20,
+          "rookie_contracts": 3,
           "salary": 17.0
         },
         "contract_team_id": "BOLLE425",
@@ -1752,7 +1767,7 @@
       {
         "contract_summary": {
           "expiring": 1,
-          "players": 24,
+          "players": 22,
           "rookie_contracts": 3,
           "salary": 35.0
         },
@@ -1764,7 +1779,7 @@
       {
         "contract_summary": {
           "expiring": 4,
-          "players": 25,
+          "players": 26,
           "rookie_contracts": 3,
           "salary": 105.0
         },
@@ -1776,8 +1791,8 @@
       {
         "contract_summary": {
           "expiring": 3,
-          "players": 29,
-          "rookie_contracts": 4,
+          "players": 27,
+          "rookie_contracts": 3,
           "salary": 135.0
         },
         "contract_team_id": "GRSUNIT",
@@ -1787,10 +1802,10 @@
       },
       {
         "contract_summary": {
-          "expiring": 3,
+          "expiring": 4,
           "players": 24,
           "rookie_contracts": 1,
-          "salary": 69.0
+          "salary": 78.0
         },
         "contract_team_id": "UNSTOPPABLE",
         "data_status": "ACTUAL",
@@ -1800,7 +1815,7 @@
       {
         "contract_summary": {
           "expiring": 4,
-          "players": 21,
+          "players": 22,
           "rookie_contracts": 4,
           "salary": 91.0
         },
@@ -1823,10 +1838,10 @@
       },
       {
         "contract_summary": {
-          "expiring": 3,
-          "players": 27,
+          "expiring": 4,
+          "players": 29,
           "rookie_contracts": 5,
-          "salary": 12.0
+          "salary": 84.0
         },
         "contract_team_id": "LASVEGASPRAYDERS",
         "data_status": "ACTUAL",
@@ -1836,8 +1851,8 @@
       {
         "contract_summary": {
           "expiring": 5,
-          "players": 20,
-          "rookie_contracts": 4,
+          "players": 24,
+          "rookie_contracts": 5,
           "salary": 61.0
         },
         "contract_team_id": "BUNCHAPUNTS21",
@@ -1848,8 +1863,8 @@
       {
         "contract_summary": {
           "expiring": 4,
-          "players": 20,
-          "rookie_contracts": 7,
+          "players": 23,
+          "rookie_contracts": 8,
           "salary": 43.0
         },
         "contract_team_id": "JDAMIANI07",
@@ -1860,8 +1875,8 @@
       {
         "contract_summary": {
           "expiring": 4,
-          "players": 22,
-          "rookie_contracts": 5,
+          "players": 20,
+          "rookie_contracts": 4,
           "salary": 42.0
         },
         "contract_team_id": "LANBEL",
@@ -1872,8 +1887,8 @@
       {
         "contract_summary": {
           "expiring": 2,
-          "players": 21,
-          "rookie_contracts": 6,
+          "players": 22,
+          "rookie_contracts": 5,
           "salary": 5.0
         },
         "contract_team_id": "BALLSOHARDUNIVERSITY",
@@ -1884,8 +1899,8 @@
       {
         "contract_summary": {
           "expiring": 2,
-          "players": 22,
-          "rookie_contracts": 2,
+          "players": 25,
+          "rookie_contracts": 3,
           "salary": 72.0
         },
         "contract_team_id": "KILLANOMICS",
@@ -1897,8 +1912,8 @@
     "note": "Weekly results remain primary; contract context is supplemental."
   },
   "transaction_refresh": {
-    "as_of": "2026-11-04T02:12:45.133758Z",
-    "through_week": 9,
-    "completed_trades": 10
+    "as_of": "2026-11-11T13:19:15.121845Z",
+    "through_week": 10,
+    "completed_trades": 14
   }
 }
