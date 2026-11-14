@@ -1,7 +1,7 @@
 {
-  "destination_path": "/Users/kmorrison/Library/Mobile Documents/com~apple~CloudDocs/killanomics_engine/pages-repositories/nfl-dynasty-manager-portal",
-  "git_commit_message": "Update NFL Dynasty manager portal 2026-11-07 07:37",
+  "destination_path": "/private/tmp/dynasty-sync-20261114/portal",
+  "git_commit_message": "Update NFL Dynasty manager portal 2026-11-14 08:59",
   "github_pages_url": "https://kamorrison.github.io/nfl-dynasty-manager-portal/",
-  "published_at": "2026-11-07 07:37:53",
-  "source_path": "/Users/kmorrison/Library/Mobile Documents/com~apple~CloudDocs/killanomics_engine/football/nfl_dynasty/reports/manager_portal"
+  "published_at": "2026-11-14 08:59:22",
+  "source_path": "/Users/kmorrison/Library/Mobile Documents/com~apple~CloudDocs/killanomics_engine/site/public_leagues/nfl-dynasty"
 }
